@@ -1,0 +1,699 @@
+@font-face {
+    font-family: Steelfish;
+    src: url(../fonts/steelfish.tff); 
+}
+
+
+body {
+	margin: 0;
+    height: inherit;
+}
+
+
+h1 {
+    font-family: Steelfish;
+    display: inline-block;
+}
+
+p, h2, h3 {
+    display: block;
+    font-family: Open Sans;
+}
+
+#Video {
+    position: relative;
+    width: 95%;
+    height: 300px;
+}
+
+
+#navBar {
+    
+	position: fixed;
+	background-color: #222;
+	width: 100%;
+    z-index: 100;
+}
+
+#lsaLogo {
+    background-image: url(Logo/LSA_white.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2%;
+    padding: 0;
+    width: 10%;
+    height: 100%;
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+    position: relative;
+    top: 25%;
+}
+
+ul li {
+    float: right;
+    margin-right: 30px;
+}
+
+ul li a:hover {
+    color: yellow;
+    background-color: #444;
+}
+
+li a {
+	font-size: 120%;
+	font-family: steelfish;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+}
+
+/* Index/MainPage */
+
+#homeImage {
+    background-image: url(Images/headImage.png);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    height: 700px;
+}
+
+.container {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 900px;
+    
+}
+
+#featuredProductsContainer {    
+    padding: 10px;
+    height: 40%;
+}
+
+#featuredProductsContainer h1 {
+    display: inline-block;
+    margin: auto;
+}
+
+#featuredProductsContainer #box1 {
+    background-color: white;
+    border: solid;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    width: 19%;
+    height: 90%;
+}
+
+#featuredProductsContainer h2 {
+    text-align: center;
+}
+
+#board1 {
+    display: inline-block;
+    background-image: url(Images/Boards/1.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 70%;
+}
+
+#board2 {
+    display: inline-block;
+    background-image: url(Images/Boards/2.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 70%;
+}
+
+#board3 {
+    display: inline-block;
+    background-image: url(Images/Boards/3.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 70%;
+}
+
+#board4 {
+    display: inline-block;
+    background-image: url(Images/Boards/4.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 70%;
+}
+
+#board5 {
+    display: inline-block;
+    background-image: url(Images/Boards/5.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0px;
+    width: 100%;
+    height: 70%;
+}
+
+#ShopContainer {
+    background-image: url(Images/shoplinkImage.png);
+    background-size:cover;
+    background-color: crimson;
+    width: 100%;
+    height: 75%;
+}
+
+#ShopContainer input {
+    position: relative;
+    float: right;
+    top: 75%;
+    right: 5%;
+    border: none;
+    font-size: 5vw;
+    font-family: steelfish;
+}
+
+#ShopContainer input:hover {
+    background-color: yellow;
+}
+
+#featureVidContainer {
+    background-color: white;
+    max-width: 100%;
+    padding: 30px;
+}
+
+#featureVidContainer #box1 {
+    border: #333 solid;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+
+
+#sitemapContainer {
+    display: inline-block;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+}
+
+#sitemapContainer h3 {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+#socialMediaContainer h3 {
+    display: block;
+    margin: 10px;
+    color: white;
+}
+
+#signupContainer h3 {
+    display: inline-block;
+    color: white;
+}
+
+#sitemapContainer p {
+    display: block;
+    margin: 1% 10% 3% 10%;
+    color: darkgrey;
+}
+
+#sitemapContainer p:hover {
+    color: white;
+}
+
+#signupContainer .email {
+    display: inline-block;
+    height: 10%;
+    background-color: lightgray;
+    width: 80%;
+    border: none;
+    margin: 5px auto;
+}
+
+#signupContainer .button {
+    margin-top: 10px;
+    display: block;
+    border: none;
+    background-color: white;
+    font-size: 2vw;
+    font-family: steelfish;
+    position: relative;
+}
+
+#signupContainer .button:hover {
+    background-color: yellow;
+}
+
+#socialMediaContainer {
+    position: absolute;
+    display: inline-block;
+    padding: 0;
+    width: 19%;
+    height: 25%;
+}
+
+#twitterIcon {
+    background-image: url(Images/twitterIcon.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    padding: 15px;
+    margin-right: 1px auto;
+    border-radius: 100px;
+}
+
+#twitterIcon:hover {
+    background-color: skyblue;
+}
+
+#facebookIcon {
+    background-image: url(Images/facebookIcon.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    padding: 15px;
+    margin-right: 1px auto;
+    border-radius: 100px;
+}
+
+#facebookIcon:hover {
+    background-color: steelblue;
+}
+
+#youtubeIcon {
+    background-image: url(Images/youtubeIcon.png);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    padding: 15px;
+    margin-right: 1px auto;
+    border-radius: 100px;
+}
+
+#youtubeIcon:hover {
+    background-color: red;
+}
+
+
+#signupContainer {
+    position: absolute;
+    display: inline-block;
+    left: 70%;
+    padding: 0;
+    width: 30%;
+    height: 16%;
+}
+
+/*About Us*/
+
+#aboutUsImage {
+    background-image: url(Images/aboutusImage.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 460px;
+}
+
+#aboutContainer p {
+    width: 70%;
+    margin-left: 100px;
+    
+}
+
+#aboutContainer h1 {
+    margin-left: 100px;
+}
+
+/*Shop */
+
+#shopImage {
+    background-image: url(Images/shopImage.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 460px;
+}
+
+#shopContainer {
+    width: 100%;
+}
+
+#catalogue {
+    height: 350px;
+}
+
+#item {
+    border: solid;
+    display: inline-block;
+    background-color: white;
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 330px;
+}
+
+#product1 {
+    background-image: url(Images/Boards/1.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#product2 {
+    background-image: url(Images/Boards/2.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#product3 {
+    background-image: url(Images/Boards/3.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#product4 {
+    background-image: url(Images/Boards/4.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#apparel1 {
+    background-image: url(Images/Apparel/apparel1.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#apparel2 {
+    background-image: url(Images/Apparel/apparel2.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#apparel3 {
+    background-image: url(Images/Apparel/apparel3.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#apparel4 {
+    background-image: url(Images/Apparel/apparel4.jpeg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#gear1 {
+    background-image: url(Images/Gear/gear1.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#gear2 {
+    background-image: url(Images/Gear/gear2.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#gear3 {
+    background-image: url(Images/Gear/gear3.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#gear4 {
+    background-image: url(Images/Gear/gear4.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    height: 70%;
+    width: 100%;
+}
+
+#item p {
+    margin: 5px;
+    font-family: Open Sans;
+}
+
+#item input {
+    display: block;
+    font-family: steelfish;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    width: 30%;
+}
+
+#item input:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* News */
+
+#newsImage {
+    background-image: url(Images/newsImage.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 460px;
+}
+
+#previewImage1 {
+    background-image: url(Images/NewsImages/newsImage1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 0px;
+    width: 30%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#previewImage2 {
+    background-image: url(Images/NewsImages/newsImage2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 0px;
+    width: 30%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#previewImage3 {
+    background-image: url(Images/NewsImages/newsImage3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 0px;
+    width: 30%;
+    height: 250px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#newsContainer h1 {
+    display: block;
+    margin-left: 50px;
+    
+}
+
+#newsContainer #preText {
+    background-color: #111;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    float: left;
+    font-size: 20px;
+}
+
+#articleImage1 {
+    background-image: url(Images/NewsImages/articleImage1.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    background-color: dimgray;
+    width: 60%;
+    height: 400px;
+    
+}
+
+#articleImage2 {
+    background-image: url(Images/NewsImages/articleImage2.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    background-color: dimgray;
+    width: 60%;
+    height: 400px;
+    
+}
+
+#articleImage3 {
+    background-image: url(Images/NewsImages/articleImage3.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    background-color: dimgray;
+    width: 60%;
+    height: 400px;
+    
+}
+
+#newsContainer #article {
+    margin-left: 50px;
+    display: inline-block;
+    width: 60%;
+}
+
+/* Contact Us */
+
+
+#contactContainer h1 {
+    font-size: 75px
+}
+
+
+#contactInput {
+    border: solid;
+    width: 400px;
+}
+
+#contactButton {
+    background-color: white;
+    border: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    font-size: 30px;
+}
+
+#contactButton:hover {
+    background-color: yellow;
+}
+
+#contactTextArea {
+    border: solid;
+    width: 400px;
+    height: 190px;
+}
+
+#footerContainer {
+    background-color: #111;
+    max-width: 100%;
+    height: 25%;
+    padding: 0px;
+}
+
+#footerContainer a {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+#footerContainer a:hover {
+    color: yellow;
+}
+
+.footer {
+    position: relative;
+    background-color: #333;
+    padding: 1px;
+}
+
+.footer p {
+    text-align: center;
+    color: lightgrey;
+}
